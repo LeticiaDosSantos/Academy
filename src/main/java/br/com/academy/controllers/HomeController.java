@@ -13,6 +13,7 @@ public class HomeController {
 		
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("home/index");
+		mv.addObject("msg", "Mensagem vinda diretamente do controller");
 		return mv;
 		
 	}

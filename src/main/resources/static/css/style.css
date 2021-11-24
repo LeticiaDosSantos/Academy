@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+*{margin: 0; padding: 0; box-sizing: border-box;}
+nav {
+	height:90px;
+	color: #ffffff;
+}
+a{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.background{
+	background-color: #563d7c;
+}
+.logo {
+	 width: 200px;
+}
